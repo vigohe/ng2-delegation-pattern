@@ -1,7 +1,5 @@
 {{title}}
-<p>
-  <my-nav></my-nav>
-  <button (click)="showObsComp = !showObsComp">toggle ObservingComponent</button>
-<div *ngIf='showObsComp'>
-  <obs-comp></obs-comp>
-</div>
+<app-header></app-header>
+<router-outlet></router-outlet>
+<obs-comp></obs-comp>
+

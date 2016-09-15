@@ -39,6 +39,8 @@ const barrels: string[] = [
   'app/observer',
   'app/observing',
   'app/title',
+  'app/login',
+  'app/header',
   /** @cli-barrel */
 ];
 
